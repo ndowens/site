@@ -1,4 +1,46 @@
-baseURL = "https://nowens.tk"
-languageCode = "en-us"
-title = "Nathan's Tidbits"
+baseURL = "https://ndowens.github.io/site"
+title = "Test"
+author = "Nathan"
 theme = "inkblotty"
+paginate = 10
+
+languageCode = "en-us"
+DefaultContentLanguage = "en-us"
+hasCJKLanguage = "true"
+
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+summaryLength=150
+
+[permalinks]
+  post = "/:slug/"
+  page = "/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  posts = "posts"
+  archive = "archives"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  #url = "content/posts/about.md"
+  weight = 10
+
+[Params]
+  readmore = true
+
+[outputs]                          # c.f. https://gohugo.io/templates/output-formats/
+  home = ["HTML", "RSS"]
+  page =  ["HTML"]
+  section =  ["HTML", "RSS"]
+  taxonomyTerm =  ["HTML", "RSS"]
+  taxonomy =  ["HTML", "RSS"]
+
+[sitemap]
+  filename = "sitemap.xml"
