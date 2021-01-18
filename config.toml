@@ -1,0 +1,4 @@
+baseURL = "https://nowens.tk"
+languageCode = "en-us"
+title = "Nathan's Tidbits"
+theme = "hugo-theme-techlog-simple"
