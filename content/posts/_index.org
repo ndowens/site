@@ -1,0 +1,9 @@
+---
+#+TITLE: Test post
+title: "Posts"
+date: 2021-01-18T16:05:41-06:00
+draft: false
+#+hugo_base_dir: .
+#+hugo_section: posts
+---
+
