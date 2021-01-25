@@ -1,6 +1,12 @@
+---
 #+TITLE: test
 #+LAYOUT: post
 #+TAGS: gnu test
+title: "Test"
+layout: post
+categories: test gnu
+---
+
 
 *TEST* /test/
 #+begin_src HTML
