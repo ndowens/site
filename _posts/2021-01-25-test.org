@@ -1,0 +1,9 @@
+---
+title: Test2
+#+TITLE: Test2
+---
+
+[[GNU][https://gnu.org]]
+
+#+RESULTS:
+: test from bash
